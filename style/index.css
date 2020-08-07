@@ -1,1 +1,79 @@
 /* Add CSS styling here */
+
+
+.container{
+    width:80%;
+    margin: 0 auto;
+    background-color:lightgrey;
+}
+
+*{
+    border: solid 1px purple;
+}
+
+.header{
+    background-color: #7a807f;
+    display:flex;
+    flex-direction:column;
+}
+
+.navigation{
+    display:flex;
+    justify-content:flex-start;
+    padding: 2% 0;
+    border-radius: 10px;
+    text-decoration:none;
+    display:inline-block;
+    width: 30%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a{
+    background-color: #2a6e69;
+    color: white;
+    text-decoration:none;
+    border: 1px solid #850309;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.intro{
+    display:flex;
+}
+
+.big-picture{
+    width:60%;
+}
+
+.pics{
+    margin:0 auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.main-pics{
+    display:flex;
+    justify-content:m space-around ;
+    width:80%;
+    margin: 0 auto;
+}
+
+.bottom{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+}
+
+.last-button{
+    display:flex;
+    justify-content: center;
+}
