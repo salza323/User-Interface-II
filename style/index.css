@@ -1,1 +1,183 @@
 /* Add CSS styling here */
+
+/* end of meyers styling */
+
+
+
+
+.container{
+    margin: 0 auto;
+    background-color:lightgrey;
+}
+
+/* *{
+    border: solid 1px purple;
+   
+} */
+
+.header{
+    background-color: #7a807f;
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.navigation{
+    display:flex;
+    justify-content:flex-start;
+    padding: 2% 0;
+    border-radius: 10px;
+    text-decoration:none;
+    display:inline-block;
+    width: 30%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a{
+    background-color: #2a6e69;
+    color: white;
+    text-decoration:none;
+    border: 1px solid #850309;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.intro{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.big-picture{
+    width:60%;
+    height: auto;
+}
+
+.cactus{
+    width: 50%;
+    margin:0 auto;
+    display:flex;
+}
+
+.right-of-pic{
+    vertical-align: middle;
+    width: 50%;
+}
+
+
+
+.pics{
+    display: flex;
+    flex-direction:column;
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.pics-1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+.pics-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ .highway-202{
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-around;
+     width:20%;
+     padding: 1%;
+}
+
+.vw-bus{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    padding: 1%;
+}
+
+
+
+
+.bottom{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.last-button{
+    display:flex;
+    justify-content: center;
+}
+
+@media(max-width:800px){
+  .header{
+        display: flex;
+        justify-content: space-around;
+        padding:5%;
+    }
+    
+}
+
+@media(max-width:500px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        padding:2%;
+    }
+    .big-picture{
+        padding-top: 8%;
+    }
+    .header{
+        align-items:center;
+    }
+   .intro{
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+   .center-button{
+       display: flex;
+       align-items: center;
+       text-align: justify;
+   }
+   .pics{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+   }
+   .pics-1, .pics-2{
+       width:100%;
+   }
+   .highway-202, .vw-bus{
+       width: 35%;
+       padding: 2%;
+   }
+   .last-button{
+       padding-bottom: 10%;
+   }
+
+
+ 
+}
